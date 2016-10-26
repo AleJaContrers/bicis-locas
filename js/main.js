@@ -47,8 +47,7 @@ function validateForm(){
 			return false;
 		}
 
-	// Validar clave largo no menor a 6 ni igualdad con ciertos caracteres
-
+	// Validar clave largo al menos 6 caracteres y que no coincida con ciertos caracteres
 	if (password.length<=5 ) {
 		alert("La clave debe ser de al menos 6 caracteres");
 	}else if(password==="123456" || password==="098754" || password==="password") {
